@@ -113,8 +113,6 @@ poetry uvicorn app.main:app --reload
 ## 📄 Licença
 Este projeto é distribuído sob a licença MIT.
 
-Sinta-se livre para usar, modificar e contribuir. 💡
-
 ---
 
 ## 🛠️ Estrutura Completa do Projeto (FastAPI + MVC)
@@ -168,8 +166,10 @@ dio-desafio-banco-fastapi/
 ├── pyproject.toml
 └── README.md
 ```
+ ---
 
 🤝 Contribuindo
 
 Sinta-se à vontade para enviar issues ou pull requests.
+
 Este projeto foi desenvolvido para o Desafio DIO - Banco FastAPI Async.
