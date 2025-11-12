@@ -3,7 +3,7 @@
 API assíncrona desenvolvida com FastAPI e SQLAlchemy AsyncIO, utilizando JWT para autenticação e SQLite como banco de dados.
 Este projeto implementa operações bancárias básicas, como cadastro de usuários, autenticação, criação de contas e movimentações financeiras.
 
-⚙️ Configuração Inicial com Poetry
+## ⚙️ Configuração Inicial com Poetry
 
 Certifique-se de ter o Poetry - instalado no seu ambiente.
 ```Bash
@@ -15,7 +15,9 @@ cd dio-desafio-banco-fastapi
 poetry add fastapi uvicorn pydantic python-jose python-multipart passlib[bcrypt]
 ```
 
-🗄️ Banco de Dados - SQLite (Assíncrono)
+---
+
+## 🗄️ Banco de Dados - SQLite (Assíncrono)
 
 Instale as dependências para trabalhar com SQLAlchemy AsyncIO e SQLite:
 ```Bash
@@ -23,12 +25,17 @@ poetry add databases sqlalchemy aiosqlite
 poetry add pydantic-settings
 poetry add passlib[bcrypt] pyjwt
 ```
-No Linux (Ubuntu/Debian), instale o SQLite localmente:
+---
+
+## No Linux (Ubuntu/Debian), instale o SQLite localmente:
 ```Bash
 sudo apt update
 sudo apt install sqlite3
 ```
-⚙️ Configuração do .env
+
+--- 
+
+## ⚙️ Configuração do .env
 
 Crie um arquivo chamado .env na raiz do projeto com as variáveis de ambiente necessárias:
 ```Bash
@@ -43,10 +50,6 @@ ACCESS_TOKEN_EXPIRE_MINUTES=30
 # Caminho do banco SQLite
 DATABASE_URL=sqlite+aiosqlite:///./bank.db
 ```
-
-# 🏦 API Bancária com FastAPI
-
-Uma aplicação **FastAPI** para gerenciamento bancário, com autenticação JWT, operações de contas e movimentações financeiras.
 
 ---
 
@@ -100,13 +103,16 @@ poetry uvicorn app.main:app --reload
 
 ## 🧠 Próximos Passos
  Adicionar testes automatizados
+
  Criar documentação de rotas com exemplos
+
  Implementar integração com outros bancos
 
 ---
 
 ## 📄 Licença
 Este projeto é distribuído sob a licença MIT.
+
 Sinta-se livre para usar, modificar e contribuir. 💡
 
 ---
