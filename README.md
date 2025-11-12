@@ -111,7 +111,7 @@ poetry uvicorn app.main:app --reload
 ---
 
 ## 📄 Licença
-Este projeto é distribuído sob a licença MIT.
+Este projeto é distribuído sob a licença **MIT**.
 
 ---
 
