@@ -1,0 +1,69 @@
+Configuração Geral do Python
+
+Arquivos de bytecode compilado
+
+pycache/
+*.py[cod]
+*$py.class
+
+Distribuição
+
+.Python
+build/
+dist/
+develop-eggs/
+.eggs/
+*.egg-info/
+*.egg
+
+Ambiente Virtual
+
+Se você usa 'venv', 'env', ou '.venv'
+
+venv/
+.venv/
+env/
+.env
+
+Variáveis de Ambiente e Arquivos Secretos (Crucial para FastAPI)
+
+Estes arquivos contêm segredos e não devem ser versionados.
+
+.env
+.flaskenv
+instance/
+
+Cache e Artefatos de Ferramentas
+
+Pytest
+
+.pytest_cache/
+
+MyPy (tipagem)
+
+.mypy_cache/
+
+Cache genérico
+
+.cache/
+
+Logs e Dados Gerados
+
+*.log
+logs/
+
+Ferramentas de Editor/IDE
+
+Visual Studio Code
+
+.vscode/
+
+PyCharm/IntelliJ
+
+.idea/
+
+Artefatos do Sistema Operacional (Windows/macOS)
+
+Thumbs.db
+Desktop.ini
+.DS_Store
