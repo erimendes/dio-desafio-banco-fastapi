@@ -99,19 +99,18 @@ poetry uvicorn app.main:app --reload
 ```
 
 ## 🧠 Próximos Passos
----
  Adicionar testes automatizados
 
  Criar documentação de rotas com exemplos
 
  Implementar integração com outros bancos
+---
 
-📄 Licença
-
+## 📄 Licença
 Este projeto é distribuído sob a licença MIT.
 Sinta-se livre para usar, modificar e contribuir. 💡
-
-🛠️ Estrutura Completa do Projeto (FastAPI + MVC)
+---
+## 🛠️ Estrutura Completa do Projeto (FastAPI + MVC)
 ```Bash
 dio-desafio-banco-fastapi/
 ├── app/
