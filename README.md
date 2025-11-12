@@ -44,24 +44,6 @@ ACCESS_TOKEN_EXPIRE_MINUTES=30
 DATABASE_URL=sqlite+aiosqlite:///./bank.db
 ```
 
-▶️ Executar o Servidor
-
-Para iniciar o servidor FastAPI em modo de desenvolvimento:
-```Bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
-
-# Instale as dependências
-poetry install
-
-# Ative o ambiente virtual
-poetry shell
-
-# Execute a aplicação
-poetry run uvicorn app.main:app --reload
-```
-
 # 🏦 API Bancária com FastAPI
 
 Uma aplicação **FastAPI** para gerenciamento bancário, com autenticação JWT, operações de contas e movimentações financeiras.
@@ -113,11 +95,11 @@ poetry install
 poetry shell
 
 # Execute a aplicação
-uvicorn app.main:app --reload
+poetry uvicorn app.main:app --reload
 ```
 
-🧠 Próximos Passos
-
+## 🧠 Próximos Passos
+---
  Adicionar testes automatizados
 
  Criar documentação de rotas com exemplos
