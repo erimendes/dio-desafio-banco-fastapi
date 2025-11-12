@@ -1,4 +1,4 @@
-🚀 DIO - Desafio Banco FastAPI Async
+# 🏦 DIO - Desafio Banco FastAPI Async
 
 API assíncrona desenvolvida com FastAPI e SQLAlchemy AsyncIO, utilizando JWT para autenticação e SQLite como banco de dados.
 Este projeto implementa operações bancárias básicas, como cadastro de usuários, autenticação, criação de contas e movimentações financeiras.
@@ -48,39 +48,86 @@ DATABASE_URL=sqlite+aiosqlite:///./bank.db
 
 Para iniciar o servidor FastAPI em modo de desenvolvimento:
 ```Bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+
+# Instale as dependências
+poetry install
+
+# Ative o ambiente virtual
+poetry shell
+
+# Execute a aplicação
 poetry run uvicorn app.main:app --reload
 ```
 
-📘 Documentação Interativa
+# 🏦 API Bancária com FastAPI
+
+Uma aplicação **FastAPI** para gerenciamento bancário, com autenticação JWT, operações de contas e movimentações financeiras.
+
+---
+
+## 📘 Documentação Interativa
 
 Acesse os endpoints e explore a API diretamente pelo navegador:
 
-Swagger UI: http://127.0.0.1:8000/docs
+- **Swagger UI:** [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)  
+- **ReDoc:** [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
 
-ReDoc: http://127.0.0.1:8000/redoc
+---
 
+## 🔐 Funcionalidades
 
-🔐 Funcionalidades
+- 👤 Cadastro de usuários  
+- 🔑 Geração e validação de **tokens JWT**  
+- 🏦 Criação de **contas bancárias**  
+- 👥 Cadastro de **clientes**  
+- 💸 Movimentações de **débito e crédito**  
 
-👤 Cadastro de usuários
+---
 
-🔑 Geração e validação de tokens JWT
+## 🧩 Tecnologias Utilizadas
 
-🏦 Criação de contas bancárias
+| Tecnologia | Descrição |
+|-------------|------------|
+| 🐍 **Python 3.11+** | Linguagem principal do projeto |
+| ⚡ **FastAPI** | Framework moderno e performático para APIs |
+| 🗄️ **SQLite + SQLAlchemy AsyncIO** | Banco de dados leve com ORM assíncrono |
+| 🔐 **JWT (python-jose)** | Autenticação e autorização segura |
+| 🧱 **Poetry** | Gerenciador de dependências e empacotamento |
 
-👥 Cadastro de clientes
+---
 
-💸 Movimentações de débito e crédito
+## 🚀 Como Executar o Projeto
 
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
 
-🧩 Tecnologias Utilizadas
-Tecnologia	Descrição
-🐍 Python 3.11+	Linguagem principal do projeto
-⚡ FastAPI	Framework moderno e performático para APIs
-🗄️ SQLite + SQLAlchemy AsyncIO	Banco de dados leve com ORM assíncrono
-🔐 JWT (python-jose)	Autenticação e autorização segura
-🧱 Poetry	Gerenciador de dependências e empacotamento
+# Instale as dependências
+poetry install
 
+# Ative o ambiente virtual
+poetry shell
+
+# Execute a aplicação
+uvicorn app.main:app --reload
+```
+
+🧠 Próximos Passos
+
+ Adicionar testes automatizados
+
+ Criar documentação de rotas com exemplos
+
+ Implementar integração com outros bancos
+
+📄 Licença
+
+Este projeto é distribuído sob a licença MIT.
+Sinta-se livre para usar, modificar e contribuir. 💡
 
 🛠️ Estrutura Completa do Projeto (FastAPI + MVC)
 ```Bash
