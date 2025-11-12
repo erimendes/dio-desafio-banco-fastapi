@@ -51,35 +51,35 @@ Para iniciar o servidor FastAPI em modo de desenvolvimento:
 poetry run uvicorn app.main:app --reload
 ```
 
-Acesse a documentação interativa:
+📘 Documentação Interativa
 
-Swagger UI → http://127.0.0.1:8000/docs
+Acesse os endpoints e explore a API diretamente pelo navegador:
 
-ReDoc → http://127.0.0.1:8000/redoc
+Swagger UI: http://127.0.0.1:8000/docs
+
+ReDoc: http://127.0.0.1:8000/redoc
+
 
 🔐 Funcionalidades
 
-Cadastrar usuários
+👤 Cadastro de usuários
 
-Gerar e validar tokens JWT
+🔑 Geração e validação de tokens JWT
 
-Criar contas bancárias
+🏦 Criação de contas bancárias
 
-Cadastrar clientes
+👥 Cadastro de clientes
 
-Realizar movimentações de débito e crédito
+💸 Movimentações de débito e crédito
+
 
 🧩 Tecnologias Utilizadas
-
-🐍 Python 3.11+
-
-⚡ FastAPI
-
-🗄️ SQLite + SQLAlchemy AsyncIO
-
-🔐 JWT (com python-jose)
-
-🧱 Poetry (gerenciador de dependências)
+Tecnologia	Descrição
+🐍 Python 3.11+	Linguagem principal do projeto
+⚡ FastAPI	Framework moderno e performático para APIs
+🗄️ SQLite + SQLAlchemy AsyncIO	Banco de dados leve com ORM assíncrono
+🔐 JWT (python-jose)	Autenticação e autorização segura
+🧱 Poetry	Gerenciador de dependências e empacotamento
 
 
 🛠️ Estrutura Completa do Projeto (FastAPI + MVC)
